@@ -43,20 +43,22 @@ body{
     max-width: 350px;
     border-radius: 24px;
     background-color: var(--white);
+    align-items: center;
 }
 
 .qr-code{
-
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     margin: 1em;
     border-radius: 24px;
 }
 
 .text-container{
     padding: .5em;
-    margin-inline: 0.2em;
 }
 .text-container h1{
-    font-size: clamp(.8rem, 2rem, 2.5rem);
+    font-size: clamp(1rem, 1.5rem, 2rem);
     color: var(--dark-blue);
     font-weight: 700;
 }
@@ -64,6 +66,6 @@ body{
 .text-container p{
     margin: 1em 0 3em 0;
     color: var(--grayish-blue);
-    font-size: 1rem;
+    font-size: clamp(.5rem, 1rem, 1.5rem);
     font-weight: 400;
 }
